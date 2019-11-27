@@ -92,15 +92,54 @@ main .part-services{
 /* --------- START THE CODE HERE ------- */
 
 /*  Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-  
+@media (max-width: 576px) { 
+ main .part-services{
+   display: block;
+   width: 100%;
  }
-
+ .content-header {
+   display: block;
+   width: 100%;
+ }
+ 
+ .content-header ul li{
+   padding: 10px;
+     display: block;
+  width: 100%;
+}
+.introduction{
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+.introduction h1{
+  font-size: 20px;
+  width: 50%;
+}
+.introduction h5{
+  font-size: 10px;
+  width: 60%;
+  float: none;
+}
+.introduction {
+  display: block;
+}
+.container{
+  display: block;
+  width: 100%;
+}
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
- 
-
+  main .part-services{
+  display: block;
+   width: 50%;
+  }
+  .content-header{
+    display: block;
+    width: 100%;
+  }
  }
 
 
